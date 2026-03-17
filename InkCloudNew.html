@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InkCloud</title>
+    <link rel="stylesheet" href="InkCloudNew.css">
+</head>
+<body>
+    <header id="encabezado"><img id="logoGrande" src="Img/Logo_InkCloud.png">
+    <div class="botones">
+        <button class="boton" onclick="anadirNota()"><img class="icono" src="Iconos/icons8-añadir-100.png"></button>
+        <button class="boton" onclick="buscarNota()"><img class="icono" src="Iconos/icons8-buscar-100.png"></button>
+        <button class="boton" onclick="mostrarEstadisticas()"><img class="icono" src="Iconos/icons8-estadísticas-100.png"></button>
+    </div>
+    </header>
+
+    <div class="separador" id="separadorEncabezado"></div>
+    <div id="contenedorBusqueda">
+
+    </div>
+    <div id="main">
+        <nav class="contenedorNav" id="Nav"></nav>
+
+        <div class="contenedorDeContenedores">
+            <div class="contenedorNotas" id="contenedorNotasPrioridad">
+                
+            </div>
+        
+        <div class="separador"></div>
+
+            <div class="contenedorNotas" id="contenedorNotasSinPrioridad">
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div class="social-bar">
+        <a href="#" title="X"><img src="Iconos/icons8-x-100.png" alt="X"></a>
+        <a href="#" title="Instagram"><img src="Iconos/icons8-instagram-100.png" alt="Instagram"></a>
+        <a href="#" title="Snapchat"><img src="Iconos/icons8-snapchat-96.png" alt="Snapchat"></a>
+        <a href="#" title="Otro"><img src="Iconos/icons8-genérico-64.png" alt="Otra red"></a>
+    </div>
+
+    <div class="chatbot" role="button" aria-label="Abrir chat">
+        <img src="Img/bot.gif">
+        <div class="textoChat">
+            <div class="tituloChat">InkBot</div>
+            <div class="tituloDosChat">¿Necesitas ayuda?</div>
+        </div>
+    </div>
+
+    <footer class="pie">
+        <p> ⚠️ Protegido por derechos de autor - @sin-socialmedia</p>
+    </footer>
+
+    <script src="InkCloudNew.js"></script>
+</body>
+</html>
